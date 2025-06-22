@@ -1,0 +1,133 @@
+/* styles/email.css */
+.email-container {
+    padding: 2rem;
+    /* background-color: #f4f5fa; */
+    min-height: 100vh;
+    min-width: 93.5vw;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .email-container h1 {
+    color: #333;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  .form-section {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    margin-bottom: 2rem;
+    width: 680px;
+    margin-left: 250px;
+  }
+  
+  .form-section label {
+    display: block;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+  
+  .form-section input,
+  .form-section textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    width: 52vw;
+  }
+  
+  .form-section button {
+    margin-top: 1rem;
+    background-color: #5e35b1;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .output-section {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 680px;
+    margin-left: 250px;
+  }
+  
+  .output-section h2 {
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  .subject-input {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+  }
+  
+  .generated-email {
+    width: 51vw;
+    height: 200px;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+    margin-bottom: 1rem;
+    resize: vertical;
+  }
+  .output-section input{
+    width: 52vw;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .actions button {
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #4a148c;
+    color: white;
+  }
+  
+  .actions button:first-child {
+    background-color: #6a1b9a;
+  }
+
+  .file-input {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    width: 52vw;
+    margin-bottom: 1rem;
+  }
+  
+  .file-input::-webkit-file-upload-button {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  
+  .file-input:hover {
+    border-color: #9575cd;
+  }
+  
