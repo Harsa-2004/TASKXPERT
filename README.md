@@ -1,5 +1,4 @@
-# TaskXpert
-TaskXpert 🚀
+# TaskXpert 🚀
 TaskXpert is a modular, web-based productivity platform built with a React.js frontend and Node.js backend, integrated with Mistral 7B Instruct API for intelligent text generation.
 It’s designed to help users automate tasks, clean datasets, and extract valuable information with minimal effort.
 
